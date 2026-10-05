@@ -1,0 +1,15 @@
+# 原始网页缓存可能包含浏览器会话参数，不发布。
+_fetch/
+
+# 本地凭据及运行环境
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+.DS_Store
+Thumbs.db
+node_modules/
+.venv/
+__pycache__/
